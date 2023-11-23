@@ -10,14 +10,14 @@ for ( let i=1; i<=100; i++){
         /* Assegnazione di un valora alla variabile li */
         li = `<li id=lista_num${i}>FizzBuzz</li>`
         /* Creazione tramite js di elementi di  una lista */
-        lista.innerHTML += li;
+       
     }
 
     /* Calcolo dei multipli di 5 */
     else if(i%5 == 0){
         /* Assegnazione di un valora alla variabile li */
         li = `<li id=lista_num${i}>Buzz</li>`
-        lista.innerHTML += li;
+       
     }
 
     /* Calcolo dei multipli di 3 */
@@ -25,7 +25,7 @@ for ( let i=1; i<=100; i++){
         /* Assegnazione di un valora alla variabile li */
         li = `<li id=lista_num${i}>Fizz</li>`
         /* Creazione tramite js di elementi di  una lista */
-        lista.innerHTML += li;
+       
     }
 
     /* Calcolo del resto dei numeri */
@@ -33,7 +33,7 @@ for ( let i=1; i<=100; i++){
         /* Assegnazione di un valora alla variabile li */
         li = `<li id=lista_num${i}>${i}</li>`
         /* Creazione tramite js di elementi di  una lista */
-        lista.innerHTML += li;
+       
     }
-    
+    lista.innerHTML += li;
 }
